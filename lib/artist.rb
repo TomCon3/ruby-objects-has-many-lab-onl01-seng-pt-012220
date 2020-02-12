@@ -7,10 +7,6 @@ class Artist
     @name = name
   end
   
-  def new(song)
-    @@song_count += 1
-  end
-  
   def songs
     Song.all
   end
