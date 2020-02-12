@@ -14,7 +14,6 @@ class Song
     else
       @artist.name
     end
-    @@song_count += 1
   end
   
   def Song.all 
