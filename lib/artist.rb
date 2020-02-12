@@ -9,7 +9,7 @@ class Artist
   end
   
   def songs
-    @songs
+    song.all select 
   end
 
   def add_song(song)
