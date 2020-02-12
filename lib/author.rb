@@ -24,5 +24,5 @@ class Author
   
   def Author.post_count
     @@post_count
-    
+  end
 end
